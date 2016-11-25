@@ -1,0 +1,443 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* mimodulo
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-29 21:54+0000\n"
+"PO-Revision-Date: 2016-08-29 21:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:164
+#: code:addons/models/models.py:164
+#, python-format
+msgid "A session's instructor can't be an attendee"
+msgstr "A session's instructor can't be an attendee"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+msgid "About"
+msgstr "About"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: mimodulo
+#: model:ir.actions.act_window,name:mimodulo.launch_session_wizard
+#: model:ir.ui.view,arch_db:mimodulo.wizard_form_view
+msgid "Add Attendees"
+msgstr "Add Attendees"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_res_partner_session_ids
+msgid "Attended Sessions"
+msgstr "Attended Sessions"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_attendee_ids
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_attendee_ids
+msgid "Attendees"
+msgstr "Attendees"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: mimodulo
+#: model:ir.ui.menu,name:mimodulo.configuration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_form_view
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: mimodulo
+#: selection:mimodulo.session,state:0
+msgid "Confirmed"
+msgstr "Confirmed"
+
+#. module: mimodulo
+#: model:ir.actions.act_window,name:mimodulo.contact_cat_list_action
+#: model:ir.ui.menu,name:mimodulo.contact_cat_menu
+msgid "Contact Tags"
+msgstr "Contact Tags"
+
+#. module: mimodulo
+#: model:ir.actions.act_window,name:mimodulo.contact_list_action
+#: model:ir.ui.menu,name:mimodulo.contact_menu
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:39
+#: code:addons/models/models.py:39
+#, python-format
+msgid "Copy of {}"
+msgstr "Copy of {}"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:41
+#: code:addons/models/models.py:41
+#, python-format
+msgid "Copy of {} ({})"
+msgstr "Copy of {} ({})"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_course_id
+msgid "Course"
+msgstr "Course"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_tree_view
+msgid "Course Tree"
+msgstr "Course Tree"
+
+#. module: mimodulo
+#: model:ir.actions.act_window,help:mimodulo.course_list_action
+msgid "Crear el primer curso"
+msgstr "Crear el primer curso"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_create_uid
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_create_uid
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_create_date
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_create_date
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: mimodulo
+#: model:ir.ui.menu,name:mimodulo.cursos_menu
+msgid "Cursos"
+msgstr "Cursos"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_description
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_display_name
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_display_name
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: mimodulo
+#: selection:mimodulo.session,state:0
+msgid "Done"
+msgstr "Done"
+
+#. module: mimodulo
+#: selection:mimodulo.session,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_duration
+msgid "Duration"
+msgstr "Duration"
+
+#. module: mimodulo
+#: model:ir.model.fields,help:mimodulo.field_mimodulo_session_duration
+msgid "Duration in days"
+msgstr "Duration in days"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_hours
+msgid "Duration in hours"
+msgstr "Duration in hours"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_end_date
+msgid "End Date"
+msgstr "End Date"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_form_view
+msgid "General"
+msgstr "General"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+msgid "General stuff"
+msgstr "General stuff"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_id
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_id
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+msgid "Idea form"
+msgstr "Idea form"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_view_tree
+msgid "Idea list"
+msgstr "Idea list"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:113
+#: code:addons/models/models.py:113
+#, python-format
+msgid "Incorrect 'seats' value"
+msgstr "Incorrect 'seats' value"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:121
+#: code:addons/models/models.py:121
+#, python-format
+msgid "Increase seats or remove excess attendees"
+msgstr "Increase seats or remove excess attendees"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_instructor_id
+#: model:ir.model.fields,field_description:mimodulo.field_res_partner_instructor
+msgid "Instructor"
+msgstr "Instructor"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course___last_update
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session___last_update
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard___last_update
+msgid "Last Modified on"
+msgstr "Última Modifiación en"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_write_uid
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_write_uid
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_write_date
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_write_date
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_form_view
+msgid "Mark as done"
+msgstr "Mark as done"
+
+#. module: mimodulo
+#: model:ir.ui.menu,name:mimodulo.main_mimodulo_menu
+#: model:ir.ui.menu,name:mimodulo.mimodulo_menu
+msgid "Mi módulo"
+msgstr "Mi módulo"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_search_view
+msgid "My Courses"
+msgstr "My Courses"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_seats
+msgid "Number of seats"
+msgstr "Number of seats"
+
+#. module: mimodulo
+#: model:ir.model,name:mimodulo.model_res_partner
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+msgid "Registered sessions"
+msgstr "Registered sessions"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_form_view
+msgid "Reset to draft"
+msgstr "Reset to draft"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_responsible_id
+#: model:ir.ui.view,arch_db:mimodulo.course_search_view
+msgid "Responsible"
+msgstr "Responsible"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_form_view
+msgid "Schedule"
+msgstr "Schedule"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_calendar_view
+msgid "Session Calendar"
+msgstr "Session Calendar"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_form_view
+msgid "Session Form"
+msgstr "Session Form"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_gantt_view
+msgid "Session Gantt"
+msgstr "Session Gantt"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.session_tree_view
+msgid "Session Tree"
+msgstr "Session Tree"
+
+#. module: mimodulo
+#: model:ir.actions.act_window,name:mimodulo.session_list_action
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_session_ids
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_wizard_session_ids
+#: model:ir.ui.menu,name:mimodulo.session_menu
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+#: model:ir.ui.view,arch_db:mimodulo.partner_instructor_view_form
+msgid "Sessions"
+msgstr "Sessions"
+
+#. module: mimodulo
+#: model:ir.actions.server,name:mimodulo.set_session_to_confirmed
+msgid "Set session to Confirmed"
+msgstr "Set session to Confirmed"
+
+#. module: mimodulo
+#: model:ir.actions.server,name:mimodulo.set_session_to_done
+msgid "Set session to Done"
+msgstr "Set session to Done"
+
+#. module: mimodulo
+#: model:ir.actions.server,name:mimodulo.set_session_to_draft
+msgid "Set session to Draft"
+msgstr "Set session to Draft"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_start_date
+msgid "Start date"
+msgstr "Start date"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_state
+msgid "State"
+msgstr "Estado"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.wizard_form_view
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_session_taken_seats
+msgid "Taken seats"
+msgstr "Taken seats"
+
+#. module: mimodulo
+#: model:res.partner.category,name:mimodulo.teacher1
+msgid "Teacher / Level 1"
+msgstr "Teacher / Level 1"
+
+#. module: mimodulo
+#: model:res.partner.category,name:mimodulo.teacher2
+msgid "Teacher / Level 2"
+msgstr "Teacher / Level 2"
+
+#. module: mimodulo
+#: sql_constraint:mimodulo.course:0
+msgid "The course title must be unique"
+msgstr "The course title must be unique"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:114
+#: code:addons/models/models.py:114
+#, python-format
+msgid "The number of available seats may not be negative"
+msgstr "The number of available seats may not be negative"
+
+#. module: mimodulo
+#: sql_constraint:mimodulo.course:0
+msgid "The title of the course should not be the description"
+msgstr "The title of the course should not be the description"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.course_view_form
+msgid "This is an example of notebooks"
+msgstr "This is an example of notebooks"
+
+#. module: mimodulo
+#: code:addons/mimodulo/models/models.py:120
+#: code:addons/models/models.py:120
+#, python-format
+msgid "Too many attendees"
+msgstr "Too many attendees"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.hoja1_view_form
+msgid "course form"
+msgstr "course form"
+
+#. module: mimodulo
+#: model:ir.actions.act_window,name:mimodulo.course_list_action
+msgid "cursos"
+msgstr "cursos"
+
+#. module: mimodulo
+#: model:res.groups,name:mimodulo.group_manager
+msgid "mimodulo / manager"
+msgstr "mimodulo / manager"
+
+#. module: mimodulo
+#: model:ir.model,name:mimodulo.model_mimodulo_course
+msgid "mimodulo.course"
+msgstr "mimodulo.course"
+
+#. module: mimodulo
+#: model:ir.model,name:mimodulo.model_mimodulo_session
+msgid "mimodulo.session"
+msgstr "mimodulo.session"
+
+#. module: mimodulo
+#: model:ir.model,name:mimodulo.model_mimodulo_wizard
+msgid "mimodulo.wizard"
+msgstr "mimodulo.wizard"
+
+#. module: mimodulo
+#: model:ir.ui.view,arch_db:mimodulo.wizard_form_view
+msgid "or"
+msgstr "o"
+
+#. module: mimodulo
+#: model:ir.model.fields,field_description:mimodulo.field_mimodulo_course_name
+msgid "titulo"
+msgstr "titulo"
+

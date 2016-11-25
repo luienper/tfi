@@ -1,0 +1,48 @@
+<odoo>
+    <data>
+        <!--  -->
+        <!--   <record id="object0" model="mimodulo.mimodulo"> -->
+        <!--     <field name="name">Object 0</field> -->
+        <!--     <field name="value">0</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object1" model="mimodulo.mimodulo"> -->
+        <!--     <field name="name">Object 1</field> -->
+        <!--     <field name="value">10</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object2" model="mimodulo.mimodulo"> -->
+        <!--     <field name="name">Object 2</field> -->
+        <!--     <field name="value">20</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object3" model="mimodulo.mimodulo"> -->
+        <!--     <field name="name">Object 3</field> -->
+        <!--     <field name="value">30</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <!--   <record id="object4" model="mimodulo.mimodulo"> -->
+        <!--     <field name="name">Object 4</field> -->
+        <!--     <field name="value">40</field> -->
+        <!--   </record> -->
+        <!--  -->
+        <record model="mimodulo.curso" id="curso0">
+            <field name="nombre">curso 0</field>
+            <field name="descripcion">Descripcion curso 0 puede tener múltiples líneas</field>
+        </record>
+        <record model="mimodulo.curso" id="curso1">
+            <field name="nombre">curso 1</field>
+        </record>
+        <record model="mimodulo.curso" id="curso2">
+            <field name="nombre">curso 2</field>
+            <field name="descripcion">descripcion curso 2</field>
+        </record>
+        <record model="ir.actions.act_window" id="action_list_ideas">
+            <field name="nombre">ideas</field>
+            <field name="res_model">idea.idea</field>
+            <field name="view_mode">tree, form</field>
+        </record>
+        <menuitem id="menu_ideas" parent="menu_root" name="Ideas" sequence="10" action="action_list_ideas"/>
+
+    </data>
+</odoo>

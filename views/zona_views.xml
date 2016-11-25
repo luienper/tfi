@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="tfi_zona_view_form" model="ir.ui.view">
+            <field name="name">tfi.zona.view.form</field>
+            <field name="model">tfi.zona</field>
+            <field name="arch" type="xml">
+                <form string="zona">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="status"/>
+                            <field name="fecha_apertura"/>
+                            <field name="fecha_cierre"/>
+                            <field name="local_id"/>
+                            <field name="item_ids"/>
+                            <field name="total_items"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="tfi_zona_view_tree" model="ir.ui.view">
+            <field name="name">tfi.zona.view.tree</field>
+            <field name="model">tfi.zona</field>
+            <field name="arch" type="xml">
+                <tree string="zona">
+                    <field name="name"/>
+                    <field name="status"/>
+                    <field name="fecha_apertura"/>
+                    <field name="fecha_cierre"/>
+                    <field name="local_id"/>
+                    <field name="total_items"/>
+                </tree>
+            </field>
+        </record>
+        <record id="tfi_zona_view_search" model="ir.ui.view">
+            <field name="name">tfi.zona.view.search</field>
+            <field name="model">tfi.zona</field>
+            <field name="arch" type="xml">
+                <search string="zona">
+                    <field name="name"/>
+                    <field name="status"/>
+                    <field name="fecha_apertura"/>
+                    <field name="fecha_cierre"/>
+                    <field name="local_id"/>
+                    <field name="item_ids"/>
+                    <field name="total_items"/>
+                </search>
+            </field>
+        </record>
+        <record id='tfi_zona_view_pivot' model='ir.ui.view'>
+            <field name="name">tfi.zona.view.pivot</field>
+            <field name="model">tfi.zona</field>
+            <field name="arch" type="xml">
+                <pivot string="Zona">
+                    <field name="name" type="row"/>
+                    <field name="total_items" type="measure"/>
+                </pivot>
+            </field>
+        </record>
+
+        <record id="tfi_zona_act_window" model="ir.actions.act_window">
+            <field name="name">Zona</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">tfi.zona</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form,pivot</field>
+            <field name="search_view_id" ref="tfi_zona_view_search"/>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click para crear un nueva zona.
+                </p>
+            </field>
+        </record>
+    </data>
+</odoo>
